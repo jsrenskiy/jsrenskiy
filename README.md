@@ -18,11 +18,11 @@ I take products from architecture and prototype through to production and moneti
 Vue 3 + Vite + Pinia on the frontend, Koa + PostgreSQL REST API on the backend, JWT auth, layered architecture (routes → service → repository), unit tests with mocked repositories, Playwright e2e, Docker Compose, GitHub Actions CI.
 *Public repo — read the code, run it, or check the tests.*
 
-**[Avito Bot](#)** — AI ad and image generator (SaaS)
+**[Avito Bot](https://gen-ad.ru/)** — AI ad and image generator (SaaS)
 Vue 3 + Koa + PostgreSQL, four AI providers (OpenAI, Gemini, NanaBanana) behind a single service with timeouts, retries and failover. Token-based billing, admin panel. Live product with paying users.
 *Closed source — production product.*
 
-**[Авитолог.Бот](#)** — Telegram bot aggregating job listings
+**[Авитолог.Бот](https://t.me/portal_zakazov_bot)** — Telegram bot aggregating job listings
 Node.js, Telegraf, GramJS (MTProto). Pulls listings from 30+ sources (freelance marketplaces, HH API, Telegram channels) hourly through an extensible source architecture. Sold as a paid subscription.
 *Closed source — production product.*
 
